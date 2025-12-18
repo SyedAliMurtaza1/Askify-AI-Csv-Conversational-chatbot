@@ -1,0 +1,13 @@
+rag:
+  chunk_size: 500
+  chunk_overlap: 50
+  top_k: 3
+  similarity_threshold: 0.7
+
+embeddings:
+  model_name: "all-MiniLM-L6-v2"
+  device: "cpu"
+
+generation:
+  max_length: 1024
+  temperature: 0.7
