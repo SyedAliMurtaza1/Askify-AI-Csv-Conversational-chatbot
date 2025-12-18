@@ -1,0 +1,1488 @@
+[
+  {
+    "question": "What is the stock quantity variation by product category?",
+    "answer": "Electronics have an average stock quantity of 1200, Clothing have an average stock quantity of 500, Home Goods have an average stock quantity of 800.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average stock quantity per product category?",
+    "answer": "Electronics average 250, Clothing 120, Home Goods 80.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correlation between Product Ratings and Price?",
+    "answer": "There is a moderate positive correlation between Product Ratings and Price, with a correlation coefficient of 0.65.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Ratings",
+          "Price"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correlation between product ratings and price?",
+    "answer": "The correlation coefficient is 0.56, indicating a moderate positive relationship between product ratings and price.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Ratings",
+          "Price"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average warranty period for products manufactured in the year 2020?",
+    "answer": "2 years.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Manufacturing Date",
+          "Warranty Period"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correlation between product ratings and price?",
+    "answer": "COLUMNS: Product Rating, Price",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Price"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which product categories have the highest stock quantity?",
+    "answer": "Electronics have 1200 units, Clothing have 900 units, Home Goods have 1800 units.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the stock quantity by product category?",
+    "answer": "Electronics: 200, Clothing: 1000, Home Goods: 300.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the average stock quantity by product category?",
+    "answer": "Electronics average 200, Clothing average 150, Home Goods average 50.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correlation between Product Ratings and Price?",
+    "answer": "There is a moderate positive correlation (0.7) between Product Ratings and Price, indicating that higher-rated products tend to be more expensive.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Ratings",
+          "Price"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average price by product category?",
+    "answer": "Electronics average $450, Clothing $85, Home Goods $120.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Price"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correlation between product ratings and stock quantity?",
+    "answer": "Correlation coefficient = 0.75, indicating a moderate positive relationship.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Ratings",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correlation between Product Ratings and Expiration Date?",
+    "answer": "COLUMNS: Product Ratings, Expiration Date",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Ratings",
+          "Expiration Date"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which products have a stock quantity below 10?",
+    "answer": "[list of product IDs]",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product ID",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which products have the lowest stock quantity?",
+    "answer": "Product ID: 234, Product Name: \"Widget\", Stock Quantity: 5, Product ID: 123, Product Name: \"Gadget\", Stock Quantity: 3.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product ID",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the stock quantity by product category?",
+    "answer": "Clothing 1000, Home Goods 500, Electronics 2000.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the highest stock quantity by product category?",
+    "answer": "Electronics 1000, Clothing 500, Home Goods 200.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most common color variation across all products?",
+    "answer": "Blue (120), Red (90), Green (80).",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Color/Size Variations",
+          "Product Tags"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the trend in product ratings by product category?",
+    "answer": "Electronics: 4.2, Clothing: 3.8, Home Goods: 4.5.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Product Ratings"
+        ]
+      }
+    ],
+    "category": "trend_analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correlation between Product Ratings and Warranty Period?",
+    "answer": "There is a weak positive correlation between Product Ratings and Warranty Period, with an R-squared value of 0.25.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Ratings",
+          "Warranty Period"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which products have a higher rating than the average product rating?",
+    "answer": "[list of product IDs with higher ratings]",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product ID"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which products have the highest average price?",
+    "answer": "Electronics average $450, Clothing $85, Home Goods $120.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Price"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which products have the lowest stock quantity?",
+    "answer": "The 10 products with the lowest stock quantity are Product ID 456, Product ID 789, Product ID 123, Product ID 901, Product ID 234, Product ID 567, Product ID 890, Product ID 345, Product ID 678, Product ID 111.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product ID",
+          "Stock Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the highest average rating for products in the \"Electronics\" category?",
+    "answer": "Electronics average rating is 4.8.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Category",
+          "Product Ratings"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correlation between Product Ratings and Price?",
+    "answer": "A strong positive correlation exists between Product Ratings and Price, with a correlation coefficient of 0.85.",
+    "sources": [
+      {
+        "csv_name": "ProductCSV.csv",
+        "columns": [
+          "Product Ratings",
+          "Price"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which salesperson has the highest average sales value?",
+    "answer": "Salesperson with an average sales value of $8,500.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the total sales value by salesperson for the month of January?",
+    "answer": "COLUMNS: SalesPersonID, TotalSalesValue",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which salesperson has the highest total sales value for the period?",
+    "answer": "Salesperson 1 with $15,000 in total sales value.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which sales person has the highest total sales value for each product?",
+    "answer": "Person A has the highest total sales value for Product A, Product B, and Product C.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "ProductID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which salesperson has the highest total sales value?",
+    "answer": "John Smith with a total sales value of $25,000.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the total sales value for each salesperson?",
+    "answer": "SalesPersonID 12345 has $1000, SalesPersonID 67890 has $500.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which salesperson has sold the most items of each product?",
+    "answer": "John Smith has sold 5 items of Product 1, 3 items of Product 2, and 2 items of Product 3.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "ProductID",
+          "Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which salesperson has the highest sales value for electronics?",
+    "answer": "John Smith with $1,200 in total sales value.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which salesperson had the highest total sales value in the electronics category?",
+    "answer": "Salesperson with ID 123 had the highest total sales value.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which sales person has the highest total sales value for the electronics products?",
+    "answer": "John Smith with $1200 total sales value.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the total sales value by sales person?",
+    "answer": "John Smith has $1000, Jane Doe has $800, Bob Johnson has $600.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the total sales value for each product category?",
+    "answer": "Electronics $100,000, Clothing $50,000, Home Goods $200,000.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "ReportID",
+          "SalesPersonID"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the average sales value by sales person?",
+    "answer": "John Smith, $2000; Jane Doe, $1500; Bob Johnson, $2200.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the total sales value by salesperson for the last month?",
+    "answer": "Salesperson A made $10,500 in sales last month, Salesperson B made $8,200 in sales last month, Salesperson C made $12,000 in sales last month.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which salesperson has the highest sales value for the Electronics product category?",
+    "answer": "John Smith, $1000.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which salesperson sold the most products in the Electronics category?",
+    "answer": "John sold 20 Electronics products.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "Quantity"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the total sales value by salesperson?",
+    "answer": "John Smith has total sales value of $1200, Jane Doe has total sales value of $800.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which salesperson generated the most revenue for the company in the first quarter?",
+    "answer": "Sarah Johnson with $150,000.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the top 5 products with the highest total sales value?",
+    "answer": "ProductID 123, ProductID 456, ProductID 789, ProductID 1011, ProductID 1213.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "ProductID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the total sales value for each salesperson?",
+    "answer": "John Smith $2000, Jane Doe $1500, Bob Johnson $2500.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the total sales value by salesperson for the product with the highest sales value?",
+    "answer": "Total sales value by John Smith for Electronics is $1200, by Jane Doe for Clothing is $500, by Bob Johnson for Home Goods is $200.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "ProductID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which salesperson has the highest total sales value in the electronics category?",
+    "answer": "Salesperson 3 has a total sales value of $12,000 in the electronics category.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the total sales value by salesperson?",
+    "answer": "John Doe: $10,000, Jane Smith: $8,000, Bob Johnson: $12,000.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the total sales value by salesperson?",
+    "answer": "COLUMNS: SalesPersonID, TotalSalesValue",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which salesperson has the highest total sales value for the month of June?",
+    "answer": "SalespersonID 123, with $15,000 in total sales.",
+    "sources": [
+      {
+        "csv_name": "SalesCSV.csv",
+        "columns": [
+          "SalesPersonID",
+          "TotalSalesValue"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the percentage of passengers who survived by class?",
+    "answer": "COLUMNS: Pclass, Survived",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the survival rate by class?",
+    "answer": "First class passengers have a 70.5% survival rate, Second class passengers have a 51.9% survival rate, Third class passengers have a 25.8% survival rate.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the distribution of passengers by age group?",
+    "answer": "0-10 years old: 10.4%, 11-20 years old: 20.5%, 21-30 years old: 25.6%, 31-40 years old: 22.8%, 41-50 years old: 15.5%, 51-60 years old: 3.4%, 61+ years old: 1.2%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "PassengerId",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "distribution",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does the probability of survival vary by class of travel?",
+    "answer": "The probability of survival is higher for First Class (0.7), Second Class (0.4), and Third Class (0.3).",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many people survived and had a ticket number starting with '3'?",
+    "answer": "123 passengers survived.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Ticket",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the survival rate for passengers with a fare above 200?",
+    "answer": "The survival rate for passengers with a fare above 200 is 63.2%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Fare",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which passenger was most likely to survive?",
+    "answer": "Male passengers had a higher survival rate than female passengers.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Sex",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which class of passengers was most likely to survive?",
+    "answer": "First class passengers had the highest survival rate.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many passengers were traveling alone and survived?",
+    "answer": "61",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "PassengerId",
+          "Age",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which passengers were more likely to survive if they were seated in a higher class?",
+    "answer": "Passengers in 1st class had a survival rate of 94.1%, 2nd class had a survival rate of 71.4%, and 3rd class had a survival rate of 38.9%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the survival rate by sex?",
+    "answer": "Men have a survival rate of 38.9%, Women have a survival rate of 44.4%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Sex",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the distribution of passenger survival by class?",
+    "answer": "COLUMNS: Pclass, Survived",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "trend_analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which passengers are more likely to survive based on the fare paid?",
+    "answer": "Passengers who paid more than $100 have a 60% survival rate.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Fare",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which passenger survived with the highest fare?",
+    "answer": "The highest fare was $8.25 and was paid by 2 passengers.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Fare",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the survival rate for passengers who traveled in first class?",
+    "answer": "The survival rate for passengers in first class is 61%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "proportion",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the survival rate by sex?",
+    "answer": "COLUMNS: Sex, Survived",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Sex",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the proportion of passengers who survived by class?",
+    "answer": "COLUMNS: Pclass, Survived",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which class of passengers had the highest survival rate?",
+    "answer": "First Class had a survival rate of 38.3%, Second Class had a survival rate of 24.5%, Third Class had a survival rate of 20.6%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the survival rate by class?",
+    "answer": "0.55 for Pclass 3, 0.36 for Pclass 2, 0.21 for Pclass 1.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How does the age of passengers affect their survival rates?",
+    "answer": "There is a positive correlation between age and survival rates, with passengers under 18 having a survival rate of 100%, those between 18-30 having a survival rate of 72%, and passengers over 60 having a survival rate of 35%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Age",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average age of survivors in first class?",
+    "answer": "35.3",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Survived",
+          "Pclass"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the distribution of the number of siblings/spouses aboard the Titanic?",
+    "answer": "The majority of passengers (61%) traveled alone, while 34% had 1 sibling/spouse and 5% had 2 or more.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Parch",
+          "SibSp"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which passenger survived the Titanic disaster based on their age group?",
+    "answer": "Children and Teenagers (0-18 years old) survived at a rate of 83%, Young Adults (19-30 years old) survived at a rate of 63%, Middle-Aged (31-50 years old) survived at a rate of 35%, and Senior Citizens (51+ years old) survived at a rate of 25%.",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many passengers survived in each class?",
+    "answer": "COLUMNS: Pclass, Survived",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Pclass",
+          "Survived"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the distribution of the fare by sex?",
+    "answer": "COLUMNS: Sex, Fare",
+    "sources": [
+      {
+        "csv_name": "Titanic-Dataset.csv",
+        "columns": [
+          "Sex",
+          "Fare"
+        ]
+      }
+    ],
+    "category": "trend_analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average age of customers who purchased the product \"Smartphone\"?",
+    "answer": "32 years old.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Age",
+          "Product Purchased"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the average time to resolution by ticket type?",
+    "answer": "Helpdesk average 2 days, Technical average 4 days, Billing average 3 days.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Type",
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which product categories have the highest customer satisfaction ratings?",
+    "answer": "Electronics average 4.2, Clothing 4.0, Home Goods 4.1.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Satisfaction Rating"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many customers have purchased more than one product within a 6-month time frame?",
+    "answer": "250.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Date of Purchase"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution for tickets that were marked as'resolved' within 24 hours of the first response time?",
+    "answer": "12 hours.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Resolution",
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which product category has the highest average customer satisfaction rating?",
+    "answer": "Electronics average 4.2/5, Clothing 4.0/5, Home Goods 4.1/5.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Satisfaction Rating"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which products have the highest average customer satisfaction rating?",
+    "answer": "Electronics average 4.2, Clothing 4.1, Home Goods 4.0.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Satisfaction Rating"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which customer segments have the highest customer satisfaction ratings?",
+    "answer": "Customers between 25-44 years old have a satisfaction rating of 4.5, while customers between 45-54 years old have a satisfaction rating of 4.2.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Satisfaction Rating"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the distribution of the first response time across all ticket types?",
+    "answer": "COLUMNS: Ticket Type, First Response Time Distribution",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Type"
+        ]
+      }
+    ],
+    "category": "distribution",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many customers have purchased products from the Electronics category within the last 30 days?",
+    "answer": "15.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Name",
+          "Date of Purchase"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution for customers who purchased products in the Electronics category?",
+    "answer": "5.6 hours.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution by ticket type?",
+    "answer": "COLUMNS: Ticket Type, Time to Resolution",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Type",
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "correlation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution by ticket type?",
+    "answer": "Normal tickets average 3 days, Urgent tickets average 1 day, and Support tickets average 2 days.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Type",
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the most common resolution type for customer satisfaction ratings above 4?",
+    "answer": "Resolution Type: 'Closed', Count: 45",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket ID",
+          "Customer Name"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the distribution of customer satisfaction ratings by ticket type?",
+    "answer": "COLUMNS: Ticket Type, Customer Satisfaction Rating",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Type",
+          "Customer Satisfaction Rating"
+        ]
+      }
+    ],
+    "category": "trend_analysis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution by ticket priority?",
+    "answer": "High priority tickets take 24 hours on average, Medium priority tickets take 36 hours, Low priority tickets take 48 hours.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Priority",
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution for tickets with a high priority and a resolution of \"resolved\"?",
+    "answer": "2 hours and 15 minutes",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Time to Resolution",
+          "Resolution"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which products have the highest average customer satisfaction ratings?",
+    "answer": "Electronics, Home Goods, Clothing average 4.2, 4.1, 3.9 respectively.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Satisfaction Rating"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution for customers who purchased a product in the \"Electronics\" category?",
+    "answer": "The average time to resolution is 2 hours for Electronics purchases.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the average resolution time for tickets with a customer satisfaction rating of 5?",
+    "answer": "2 hours, 15 minutes.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Satisfaction Rating"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the most common ticket status?",
+    "answer": "Open.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Status"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the most common product purchased by customers over 30 years old?",
+    "answer": "COLUMNS: Product Purchased, Customer Age",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Product Purchased",
+          "Customer Age"
+        ]
+      }
+    ],
+    "category": "filtering",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average age of customers who purchased the 'Product A'?",
+    "answer": "30.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Customer Age",
+          "Product Purchased"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the average resolution time by ticket priority?",
+    "answer": "High priority tickets have an average resolution time of 3.2 hours, Medium priority tickets have an average resolution time of 2.1 hours, Low priority tickets have an average resolution time of 4.5 hours.",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Priority"
+        ]
+      }
+    ],
+    "category": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the average time to resolution by ticket type?",
+    "answer": "COLUMNS: Ticket Type, Time to Resolution",
+    "sources": [
+      {
+        "csv_name": "CustomerCSV.csv",
+        "columns": [
+          "Ticket Type",
+          "Time to Resolution"
+        ]
+      }
+    ],
+    "category": "aggregation",
+    "difficulty": "easy"
+  }
+]

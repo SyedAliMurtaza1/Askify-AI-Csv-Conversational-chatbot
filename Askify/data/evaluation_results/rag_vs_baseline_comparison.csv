@@ -1,0 +1,76 @@
+question,rag_overall_score,baseline_overall_score,rag_factuality,baseline_factuality,rag_completeness,baseline_completeness,rag_faithfulness,baseline_faithfulness,rag_safety,baseline_safety,rag_sql_valid,baseline_sql_valid,rag_execution_success,baseline_execution_success,rag_sources_count,improvement,csv_file
+Which salesperson has the highest average sales value?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value by salesperson for the month of January?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,5,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson has the highest total sales value for the period?,0.465,0.1,0.3,0.1,0.3,0.1,0.4,0.1,1.0,1.0,True,False,False,False,4,0.365,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which sales person has the highest total sales value for each product?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson has the highest total sales value?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value for each salesperson?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson has sold the most items of each product?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson has the highest sales value for electronics?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson had the highest total sales value in the electronics category?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,5,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which sales person has the highest total sales value for the electronics products?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value by sales person?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value for each product category?,0.515,0.44,0.3,0.3,0.3,0.3,0.6,0.3,1.0,1.0,True,True,False,False,4,0.07500000000000001,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the average sales value by sales person?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value by salesperson for the last month?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,5,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson has the highest sales value for the Electronics product category?,0.1,0.44,0.1,0.3,0.1,0.3,0.2,0.3,1.0,1.0,False,True,False,False,0,-0.33999999999999997,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson sold the most products in the Electronics category?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,5,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value by salesperson?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson generated the most revenue for the company in the first quarter?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,4,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the top 5 products with the highest total sales value?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value for each salesperson?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value by salesperson for the product with the highest sales value?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson has the highest total sales value in the electronics category?,0.1,0.44,0.1,0.3,0.1,0.3,0.2,0.3,1.0,1.0,False,True,False,False,0,-0.33999999999999997,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value by salesperson?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the total sales value by salesperson?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+Which salesperson has the highest total sales value for the month of June?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,4,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\SalesCSV.csv
+What is the stock quantity variation by product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the average stock quantity per product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between Product Ratings and Price?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between product ratings and price?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the average warranty period for products manufactured in the year 2020?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,5,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between product ratings and price?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+Which product categories have the highest stock quantity?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the stock quantity by product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the average stock quantity by product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between Product Ratings and Price?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the average price by product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between product ratings and stock quantity?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between Product Ratings and Expiration Date?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+Which products have a stock quantity below 10?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+Which products have the lowest stock quantity?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the stock quantity by product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the highest stock quantity by product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the most common color variation across all products?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the trend in product ratings by product category?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between Product Ratings and Warranty Period?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+Which products have a higher rating than the average product rating?,0.465,0.1,0.3,0.1,0.3,0.1,0.4,0.1,1.0,1.0,True,False,False,False,5,0.365,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+Which products have the highest average price?,0.465,0.1,0.3,0.1,0.3,0.1,0.4,0.1,1.0,1.0,True,False,False,False,5,0.365,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+Which products have the lowest stock quantity?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+"What is the highest average rating for products in the ""Electronics"" category?",0.465,0.1,0.3,0.1,0.3,0.1,0.4,0.1,1.0,1.0,True,False,False,False,5,0.365,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the correlation between Product Ratings and Price?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\ProductCSV.csv
+What is the percentage of passengers who survived by class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the survival rate by class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the distribution of passengers by age group?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+How does the probability of survival vary by class of travel?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+How many people survived and had a ticket number starting with '3'?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the survival rate for passengers with a fare above 200?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+Which passenger was most likely to survive?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+Which class of passengers was most likely to survive?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+How many passengers were traveling alone and survived?,0.1,0.44,0.1,0.3,0.1,0.3,0.2,0.3,1.0,1.0,False,True,False,False,0,-0.33999999999999997,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+Which passengers were more likely to survive if they were seated in a higher class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the survival rate by sex?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the distribution of passenger survival by class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+Which passengers are more likely to survive based on the fare paid?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+Which passenger survived with the highest fare?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the survival rate for passengers who traveled in first class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the survival rate by sex?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the proportion of passengers who survived by class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+Which class of passengers had the highest survival rate?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the survival rate by class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+How does the age of passengers affect their survival rates?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the average age of survivors in first class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the distribution of the number of siblings/spouses aboard the Titanic?,0.465,0.44,0.3,0.3,0.3,0.3,0.4,0.3,1.0,1.0,True,True,False,False,5,0.025000000000000022,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+Which passenger survived the Titanic disaster based on their age group?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+How many passengers survived in each class?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
+What is the distribution of the fare by sex?,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.1,1.0,1.0,False,False,False,False,0,0.0,C:\Users\ahmed\Downloads\SMARTSTOCK-NLP\nlpp\data\Titanic-Dataset.csv
